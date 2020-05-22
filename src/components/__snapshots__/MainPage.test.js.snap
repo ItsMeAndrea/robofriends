@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders MainPage 1`] = `
+<MainPage
+  isPending={false}
+  onRequestRobots={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  robots={Array []}
+  search=""
+>
+  <div
+    className="tc"
+  >
+    <Header>
+      <h1
+        className="f1"
+      >
+        RoboFriends
+      </h1>
+    </Header>
+    <SearchBox>
+      <div
+        className="pa2"
+      >
+        <input
+          aria-label="searchbox"
+          className="pa3 ba b--green bg-lightest-blue"
+          placeholder="search robots"
+          type="search"
+        />
+      </div>
+    </SearchBox>
+    <Scroll>
+      <div
+        style={
+          Object {
+            "height": "500px",
+            "overflowY": "scroll",
+          }
+        }
+      >
+        <ErrorBoundry>
+          <CardList
+            robots={Array []}
+          >
+            <div />
+          </CardList>
+        </ErrorBoundry>
+      </div>
+    </Scroll>
+  </div>
+</MainPage>
+`;
